@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{E53AD327-F7FA-492A-9E4C-05FFC9385773}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{AC7416BB-73D0-4454-BB84-0F6D004AE1D2}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject1\SharedProject1.projitems*{ac7416bb-73d0-4454-bb84-0f6d004ae1d2}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E53AD327-F7FA-492A-9E4C-05FFC9385773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53AD327-F7FA-492A-9E4C-05FFC9385773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53AD327-F7FA-492A-9E4C-05FFC9385773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53AD327-F7FA-492A-9E4C-05FFC9385773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F68C887-845C-4CA7-8DBD-7DB4D765F7CC}
+	EndGlobalSection
+EndGlobal
